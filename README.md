@@ -1,12 +1,57 @@
-# React + Vite
+# The ARCH
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio website for an architecture & civil design company, built with React.js and Tailwind CSS.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧰 Technologies
 
-## Expanding the ESLint configuration
+| Frontend | Styling | Build Tools / Others |
+|----------|---------|-----------------------|
+| React.js | Tailwind CSS | Vite |
+| JavaScript | HTML / CSS | Git / GitHub |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Features
+
+- Fully **responsive design**, optimized for mobile, tablet, and desktop screens.  
+- Gallery / Portfolio section to showcase architectural and civil projects.  
+- Smooth navigation with scroll behavior and UI/UX enhancements (e.g., hover effects, transitions).  
+- Services section detailing offerings like architectural design, civil engineering, etc.  
+- Contact form to reach out (email/WhatsApp or similar).  
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/ranjit12103/The-ARCH.git
+
+Move into project directory
+
+cd The-ARCH
+
+
+Install dependencies
+
+npm install
+
+
+Start development server
+
+npm run dev
+
+
+Open browser at the URL shown in terminal (usually http://localhost:3000 or http://localhost:5173 etc., depending on your setup).
+
+✅ Project Status
+
+ Live deployment pending
+
+ Local development working
+
+ Responsive layout tested for major screen sizes
