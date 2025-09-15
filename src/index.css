@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body{
+  background-color: #e7eeee;
+}
+
+.custom-navigation{
+  display: flex;
+  align-items: center;
+}
+
+.swiper-button-prev, 
+.swiper-button-next{
+  padding: 20px;
+
+}
+
+.bg{
+  background-image: url('../src/assets/images/image-22.png');
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
