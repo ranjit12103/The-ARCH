@@ -4,6 +4,7 @@ import SectionOne from "./components/SectionOne";
 import SectionTwo from "./components/SectionTwo";
 import SectionThree from "./components/SectionThree";
 import SectionFour from "./components/SectionFour";
+import SectionFive from "./components/SectionFive";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <section id="location"><SectionTwo /></section>
       <section id="work"><SectionThree /></section>
       <section id="about"><SectionFour /></section>
+      <SectionFive/>
       <section id="contact"><h1>Contact Section</h1></section>
     </>
   )
