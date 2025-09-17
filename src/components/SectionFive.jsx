@@ -1,64 +1,36 @@
 import React from 'react'
-import img1 from '../assets/images/img3.jpg'
-import img2 from '../assets/images/image-19.jpg'
-import img3 from '../assets/images/img5.png'
-import img4 from '../assets/images/img2.jpg'
-import img5 from '../assets/images/img4.jpg'
-import img6 from '../assets/images/image-9.png'
+import icon1 from '../assets/images/icon2.png'
+import icon2 from '../assets/images/icon1.png'
+import icon3 from '../assets/images/icon3.png'
 
 
 export default function SectionFive() {
-  const articles=[
-    {
-      id:1,
-      img: img1,
-      heading:"Discover cutting-edge urban planning concepts, smart city innovations, and architectural solutions"
-    },
-    {
-      id:2,
-      img: img2,
-      heading:"Learn about groundbreaking advancements in construction, 3D printing, AI-driven design, and sustainable technologies"
-    },
-    {
-      id:3,
-      img: img3,
-      heading:"Learn about groundbreaking advancements in construction, 3D printing, AI-driven design, and sustainable technologies"
-    },
-    {
-      id:4,
-      img: img4,
-      heading:"Learn about groundbreaking advancements in construction, 3D printing, AI-driven design, and sustainable technologies"
-    },
-    {
-      id:5,
-      img: img5,
-      heading:"Learn about groundbreaking advancements in construction, 3D printing, AI-driven design, and sustainable technologies"
-    },
-    {
-      id:6,
-      img: img6,
-      heading:"Learn about groundbreaking advancements in construction, 3D printing, AI-driven design, and sustainable technologies"
-    }
-  ]
   return (
-    <section className='p-40 flex flex-col gap-20 items-center justify-center border border-gray-300'>
-        <h1 className='text-4xl text-bold'>Blog / News</h1>
-
-        <div className='flex flex-wrap items-center justify-center gap-20'>
-            {articles.map((article, index)=>{
-              return(
-                <div className={`${index >= 4 ? "hidden":""} flex flex-col gap-2 w-96`} key={article.id}>
-                  <img className="max-h-[500px] max-w-[600px] h-full object-cover rounded-lg" src={article.img} alt="" />
-                  <h3>{article.heading}</h3>
-                  <button className='text-green-500 font-bold'>More Details</button>
-                </div>
-              )
-            })}
+    <section>
+      <div className='p-40'>
+        <h1 className='text-5xl font-bold'>The Dream come true with <span>ARCH</span></h1>
+        <div className='flex gap-12 items-center justify-center p-12'></div>
+        <div className="box p-10 flex flex-col gap-4 items-start rounded-xl hover:bg-green-100 cursor-pointer">
+          <img className="w-16" src={icon1} alt="" />
+          <h3 className='font-medium'>Interior design</h3>
+          <p className='opacity-80 leading-7'>Architectural design combines creativity, functionality, and sustainability to craft spaces that inspire, enhance daily life, and seamlessly blend aesthetics with structural innovation for lasting impact.</p>
+          <button>View More</button>
         </div>
 
-        <button className='btn border border-gray-300 px-12 mt-12 '>See More</button>
+        <div className="box p-10 flex flex-col gap-4 items-start rounded-xl hover:bg-green-100 cursor-pointer">
+          <img className="w-16" src={icon2} alt="" />
+          <h3 className='font-medium'>Architectural design</h3>
+          <p>Architectural design combines creativity, functionality, and sustainability to craft spaces that inspire, enhance daily life, and seamlessly blend aesthetics with structural innovation for lasting impact.</p>
+          <button>View More</button>
+        </div>
+
+        <div className="box p-10 flex flex-col gap-4 items-start rounded-xl hover:bg-green-100 cursor-pointer">
+          <img className="w-16" src={icon3} alt="" />
+          <h3 className='font-medium'>Landscaping design</h3>
+          <p className='opacity-80 leading-7'>Architectural design combines creativity, functionality, and sustainability to craft spaces that inspire, enhance daily life, and seamlessly blend aesthetics with structural innovation for lasting impact.</p>
+          <button>View More</button>
+        </div>
+      </div>
     </section>
   )
 }
-
-// Architectural design combines creativity, functionality, and sustainability to craft spaces that inspire, enhance daily life, and seamlessly blend aesthetics with structural innovation for lasting impact.
